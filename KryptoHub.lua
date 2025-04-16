@@ -31,7 +31,7 @@ local currentLoop = nil
 local function fireFPS(value)
 	while currentLoop == value do
 		ReplicatedStorage:WaitForChild("FPSUpdateEventIKnowYouReCheater"):FireServer(value)
-		task.wait(0.05)
+		task.wait(0.1)
 	end
 end
 

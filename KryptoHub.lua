@@ -9,11 +9,21 @@ local fpsStrings = {
 	"https://rule34.com/",
 	"https://watchpeopledie.com/",
 	"https://kaotic.com/",
+	"https://xvideos.com/",
+        "https://xnxx.com/",
+        "https://xhamster.com/",
+        "https://theporndude.com/",
 	"nigger",
 	"suck a dick",
 	"kryptonite on top",
 	"pussy",
-	"your mom's a hoe"
+	"your mom's a hoe",
+	"swallow my cum",
+	"dickhead",
+	"dick rider",
+	"ts pmo",
+	"sybau",
+	"ts pmo icl fr br u r nt shkspr"
 }
 
 local currentLoop = nil
@@ -226,3 +236,15 @@ RefreshButton.MouseButton1Click:Connect(function()
 	currentLoop = nil
 	ReplicatedStorage:WaitForChild("FPSUpdateEventIKnowYouReCheater"):FireServer("FPS: " .. tostring(math.random(45, 60)))
 end)
+
+local CreditsLabel = Instance.new("TextLabel")
+CreditsLabel.Parent = MainFrame
+CreditsLabel.Position = UDim2.new(0.5, -100, 1, -30)
+CreditsLabel.Size = UDim2.new(0, 200, 0, 30)
+CreditsLabel.Text = "Made by Kryptonite_404"
+CreditsLabel.Font = Enum.Font.Gotham
+CreditsLabel.TextSize = 14
+CreditsLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsLabel.BackgroundTransparency = 1
+end
+

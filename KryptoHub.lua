@@ -20,10 +20,7 @@ local fpsStrings = {
 	"your mom's a hoe",
 	"swallow my cum",
 	"dickhead",
-	"dick rider",
-	"ts pmo",
-	"sybau",
-	"ts pmo icl fr br u r nt shkspr"
+	"dick rider"
 }
 
 local currentLoop = nil
@@ -246,5 +243,5 @@ CreditsLabel.Font = Enum.Font.Gotham
 CreditsLabel.TextSize = 14
 CreditsLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 CreditsLabel.BackgroundTransparency = 1
-end
+
 
